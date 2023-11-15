@@ -36,7 +36,7 @@ begin
         and_in <= "11";
 
         -- Testing complete
-        report "\n\n##### TESTBENCH COMPLETE #####\n\n";
+        report "##### TESTBENCH COMPLETE #####";
         finish;
     end process test;
 
